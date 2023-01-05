@@ -6,9 +6,13 @@
 		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/x-icon" href="https://s1.vika.cn/space/2022/11/30/104789f238af45c8968ce6d03b0e5b4b">
 		<title>I AM SKYRE - SKYRE的个人主页</title>
+		<meta name="description" content="SKYRE是辉辉鸭的个人主页">
+		<meta name="keywords" content="SKYRE,SKYRE是辉辉鸭,辉辉,SKYRE的个人主页,SKYRE介绍,skyre.cn,SKYRE NOTE,skyrenote,辉少菌">
 		<link rel="apple-touch-icon-precomposed" href="https://s1.vika.cn/space/2022/11/30/104789f238af45c8968ce6d03b0e5b4b">
 		<link rel="stylesheet" type="text/css" href="assets/style.css">
 		<link rel="stylesheet" type="text/css" href="assets/icon.css">
+		<script src="https://webstatic.cdn.skyre.cn/Live2d/js/live2dcubismcore.js"></script>
+        <script src="https://webstatic.cdn.skyre.cn/Live2d/js/bundle.js"></script>
 		<link href="https://fonts.geekzu.org/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 		<style>*{font-family:ZCOOL KuaiLe,PingFang SC,HarmonyOS_Regular,Helvetica Neue,Microsoft YaHei,sans-serif,serif}@media screen and (max-width:700px){nav{backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);background:rgba(0,0,0,0.5);}}.github-badge{display:inline-block;border-radius:4px;text-shadow:none;font-size:12px;color:#fff;line-height:15px;background-color:#abbac3;margin-bottom:5px;}.github-badge .badge-value{display:inline-block;padding:4px 6px 4px 6px;border-radius:4px;background-color:#ffa500;color:#ffffff;cursor:pointer;}</style>
 	</head>
@@ -105,8 +109,11 @@
 								</a>
 							</div>
 							<br>
+							<br>
+							<br>
+							<br>
 						</div>
-						<!--h2 class="chtitle">我的<span>技能</span></h2-->
+						<h2 class="chtitle">我的<span>技能</span></h2>
 						<ul class="skill clear" style="margin-top: 0px!important;">
 							<li>
 								<p>应用开发</p>
@@ -195,6 +202,13 @@
 				</p>
 			</div>
 		</div>
+		<canvas id="live2d" width="150" height="250" class="live2d" style="position: fixed; opacity: 1; bottom: -10px; z-index: 99999; pointer-events: none;"></canvas>
 		<script src="assets/script.js"></script>
+		<script type="text/javascript">
+        var resourcesPath = 'https://webstatic.cdn.skyre.cn/Live2d/'; // 指定资源文件（模型）保存的路径
+        var backImageName = ''; // 指定背景图片
+        var modelDir = ['gongzi']; // 指定需要加载的模型
+        initDefine(resourcesPath, backImageName, modelDir); // 初始化模型
+        </script>
 	</body>
 </html>
