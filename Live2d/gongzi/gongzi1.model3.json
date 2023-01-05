@@ -1,0 +1,17 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "gongzi.moc3",
+		"Textures": [
+			"gongzi.4096/texture_00.png"
+		],
+		"Physics": "gongzi.physics3.json",
+		"Expressions": [
+			{
+				"Name": "hu.exp3.json",
+				"File": "expressions/hu.exp3.json"
+			}
+		]
+	},
+	"HitAreas": []
+}
