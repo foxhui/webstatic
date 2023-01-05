@@ -3,7 +3,7 @@
   "FileReferences": {
     "Moc": "gongzi.moc3",
     "Textures": [
-      "textures/texture_01.png"
+      "textrues/texture_01.png"
     ],
     "Physics": "gongzi.physics3.json",
     "PhysicsV2": {
