@@ -1,26 +1,30 @@
-/*
+div.code-toolbar {
+  font-size: 100%;
+  border-radius: 5px;
+  position: relative;
+  padding-top: 30px;
+  background-color: #eee;
+  margin: 20px 0 20px 0;
+}
 
-Atom One Light by Daniel Gamage
-Original One Light Syntax theme from https://github.com/atom/one-light-syntax
-
-base:    #fafafa
-mono-1:  #383a42
-mono-2:  #686b77
-mono-3:  #a0a1a7
-hue-1:   #0184bb
-hue-2:   #4078f2
-hue-3:   #a626a4
-hue-4:   #50a14f
-hue-5:   #e45649
-hue-5-2: #c91243
-hue-6:   #986801
-hue-6-2: #c18401
-
-*/
+.code-toolbar:before {
+  content: " ";
+  position: absolute;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #fc625d;
+  width: 11px;
+  height: 11px;
+  left: 10px;
+  top: 10px;
+  -webkit-box-shadow: 20px 0 #fdbc40,40px 0 #35cd4b;
+  box-shadow: 20px 0 #fdbc40,40px 0 #35cd4b;
+  z-index: 2
+}
 
 .hljs {
   color: #383a42;
-  background: #fafafa;
+  background: #f3f3f3
 }
 
 .hljs-comment,
