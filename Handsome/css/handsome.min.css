@@ -14,7 +14,7 @@
 }
 
 .app.container {
-    background: #f1f3f4;
+    background: white;
 }
 
 .app-aside-fix #aside #left_footer {
@@ -459,7 +459,7 @@
 
 #skPlayer .skPlayer-list {
     display: none;
-    width: 290px;
+    width: 261px;
     position: absolute;
     top: 51px;
     padding-top: 0;
@@ -2567,13 +2567,13 @@ html.bg {
         width: 280px
     }
 
-    .app-footer {
+    /* .app-footer {
         margin-right: 280px
-    }
+    } */
 
-    #tag_toc.fixed #toc {
+    /* #tag_toc.fixed #toc {
         width: 240px
-    }
+    } */
 
     .index-image,.item-thumb {
         min-height: 300px!important
@@ -10669,7 +10669,8 @@ button i svg {
 .tip {
     background: #eef6fd;
     padding: 8px 20px;
-    border-radius: 5px;
+    border-left: 3px solid #38a3fd;
+    border-radius: 0 5px 5px 0;
     margin-bottom: 10px;
     color: #777
 }
@@ -10678,7 +10679,7 @@ button i svg {
     margin: 5px 0!important
 }
 
-.tip:before11 {
+.tip:before {
     background: #38a3fd;
     border-radius: 50%;
     color: #fff;
@@ -10703,7 +10704,7 @@ button i svg {
     background: #efefef
 }
 
-.tip.share:before11 {
+.tip.share:before {
     background: #ddd;
     content: "\0040"
 }
@@ -10713,7 +10714,7 @@ button i svg {
     background: #f0f8e5
 }
 
-.tip.success:before11 {
+.tip.success:before {
     background: #86cc00;
     content: "\221a"
 }
@@ -10723,7 +10724,7 @@ button i svg {
     background: #fcf2e9
 }
 
-.tip.warning:before11 {
+.tip.warning:before {
     background: #ff7800;
     content: "\0021"
 }
@@ -10733,7 +10734,7 @@ button i svg {
     background: #fcf1f1
 }
 
-.tip.error:before11 {
+.tip.error:before {
     background: #ed0000;
     content: "\00D7"
 }
@@ -10756,7 +10757,7 @@ button i svg {
     margin-bottom: 0!important
 }
 
-.tip.simple:before11 {
+.tip.simple:before {
     display: none
 }
 
