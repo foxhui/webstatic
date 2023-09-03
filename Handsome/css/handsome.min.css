@@ -10669,8 +10669,9 @@ button i svg {
 .tip {
     background: #eef6fd;
     padding: 8px 20px;
-    border-left: 3px solid #38a3fd;
-    border-radius: 0 5px 5px 0;
+    /* border-left: 3px solid #38a3fd;
+    border-radius: 0 5px 5px 0; */
+    border-radius: 5px;
     margin-bottom: 10px;
     color: #777
 }
@@ -10679,7 +10680,7 @@ button i svg {
     margin: 5px 0!important
 }
 
-.tip:before {
+/* .tip:before {
     background: #38a3fd;
     border-radius: 50%;
     color: #fff;
@@ -10693,7 +10694,7 @@ button i svg {
     position: absolute;
     text-align: center;
     width: 21px
-}
+} */
 
 .tip ol {
     margin: 0
@@ -10704,40 +10705,40 @@ button i svg {
     background: #efefef
 }
 
-.tip.share:before {
+/* .tip.share:before {
     background: #ddd;
     content: "\0040"
-}
+} */
 
 .tip.success {
     border-left-color: #86cc00;
     background: #f0f8e5
 }
 
-.tip.success:before {
+/* .tip.success:before {
     background: #86cc00;
     content: "\221a"
-}
+} */
 
 .tip.warning {
     border-left-color: #ff7800;
     background: #fcf2e9
 }
 
-.tip.warning:before {
+/* .tip.warning:before {
     background: #ff7800;
     content: "\0021"
-}
+} */
 
 .tip.error {
     border-left-color: #ed0000;
     background: #fcf1f1
 }
 
-.tip.error:before {
+/* .tip.error:before {
     background: #ed0000;
     content: "\00D7"
-}
+} */
 
 .tip.inlineBlock {
     display: inline-block;
