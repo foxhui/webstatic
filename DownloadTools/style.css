@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    font-family: PingFang SC,HarmonyOS_Regular,Helvetica Neue,Microsoft YaHei,sans-serif!important
+}
+
+.container {
+    padding: 20px;
+}
+
+.input-padding {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-width {
+    width: 100%;
+}
+
+.info-text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+.title-bar {
+    margin-bottom: 20px;
+}
+
+.button-margin {
+    margin-right: 5px;
+}
